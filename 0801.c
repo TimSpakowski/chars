@@ -10,7 +10,7 @@ int main() {
     printf("Produktname: %s\n", productNames[i]);
     printf("Packungsgröße: %d g\n", sizes[i]);
     printf("Kilopreis netto: %.2f €\n", (prices[i] / sizes[i]) * 1000);
-    printf("Kilopreis brutto: %.2f €\n", ((prices[i] / sizes[i]) * 1000) * 1.07);
+    printf("Kilopreis brutto: %.2f €\n\n", ((prices[i] / sizes[i]) * 1000) * 1.07);
   }
 
   return 0;
